@@ -1,0 +1,22 @@
+{
+    "name": "good-system/laravel-model-history",
+    "authors": [
+        {
+            "name": "Harry Guo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GoodSystem\\ModelHistory\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GoodSystem\\ModelHistory\\ModelHistoryServiceProvider"
+            ]
+        }
+    }
+}
+
