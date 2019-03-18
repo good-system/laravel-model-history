@@ -19,7 +19,7 @@ class CreateModelHistoryTable extends Migration
             $table->string('name');
             $table->string('model_type');
             $table->unsignedInteger('model_id')->nullable();
-            $table->json('data');
+            $table->text('data');
             $table->string('status', 25)->nullable();
             $table->text('exception');
             $table->timestamps();
